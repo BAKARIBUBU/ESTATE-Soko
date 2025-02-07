@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <menuitem id="menu_estate_settings"
+              name="Settings"
+              parent="menu_estate_root"
+              sequence="10"
+        />
+   <menuitem  id="menu_estate_configuration"
+               name="Configuration"
+               parent="menu_estate_settings"
+               sequence="10"
+        />
+   <menuitem id="menu_estate_property_type"
+               name="Property Types"
+               parent="menu_estate_configuration"
+               action="estate_property_type_action"
+               sequence="10"
+        />
+</odoo>

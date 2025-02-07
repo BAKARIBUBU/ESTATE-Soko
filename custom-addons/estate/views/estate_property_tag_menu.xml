@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="menu_estate_tags"
+                name="Property Tags"
+                parent="menu_estate_configuration"
+                action="estate_property_tag_action"
+                sequence="20"
+            />
+</odoo>
+
+

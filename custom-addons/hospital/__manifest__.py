@@ -1,0 +1,21 @@
+{
+    "name": "Hospital Management System",
+    "author": "Bakari Bubu",
+    "website": "https://github.com/BAKARIBUBU",
+    "summary": "Hospital Management System",
+    "version": "1.0",
+    "category": "Health Management",
+    "description": "Customize Hospital Management System",
+    "depends": ["base"],
+    "data": [
+        "security/ir.model.access.csv",
+        "views/hospital_patient_views.xml",
+        "views/hospital_patient_menu.xml",
+    ],
+    "demo": [],
+    "license": "LGPL-3",
+    "installable": True,
+    "application": True,
+    "auto_install": False,
+    "images": ["static/description/icon.png"],
+}
